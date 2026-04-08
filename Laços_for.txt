@@ -1,0 +1,25 @@
+#Às vezes, ao programar, é necessário realizar a mesma operação ou quase a mesma operação algumas vezes.
+
+#Para evitar escrever a mesma coisa repetidamente, podemos usar laços.
+
+#O laço for tem a seguinte sintaxe:
+
+#-----for i in range(start, end):----------
+          code
+
+
+
+
+O range(start, end) determina qual é o valor de start e qual é o valor de end. O i receberá todos os valores de start até end (não incluindo end) sequencialmente. Por exemplo:
+--------------------------------------------------------
+for i in range(0, 5):
+    print(i)
+Ele executará a instrução print 5 vezes:
+--------------------------------------------------------
+0
+1
+2
+3
+4
+--------------------------------------------------------
+
